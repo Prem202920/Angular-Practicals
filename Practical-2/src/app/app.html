@@ -1,0 +1,13 @@
+<h1>Daily Timetable</h1>
+
+<table border="1" cellpadding="10">
+  <tr>
+    <th>Time</th>
+    <th>Scheduled Task</th>
+  </tr>
+
+  <tr *ngFor="let item of timetable">
+    <td>{{ item.time }}</td>
+    <td>{{ item.task }}</td>
+  </tr>
+</table>

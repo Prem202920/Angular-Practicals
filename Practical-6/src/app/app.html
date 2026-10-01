@@ -1,0 +1,19 @@
+<h1>Student Portfolios</h1>
+
+<div class="portfolio-container">
+
+  <div class="card" *ngFor="let student of students">
+
+    <h2>{{ student.name }}</h2>
+
+    <p><b>Course:</b> {{ student.course }}</p>
+
+    <p><b>Skills:</b> {{ student.skills }}</p>
+
+    <p><b>Project:</b> {{ student.project }}</p>
+
+    <p><b>Email:</b> {{ student.email }}</p>
+
+  </div>
+
+</div>
